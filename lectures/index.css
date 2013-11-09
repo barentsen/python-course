@@ -1,0 +1,49 @@
+@import url("normalize.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.68;
+    color: #333;
+    background: #fff;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;      
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 15px;
+    line-height: 1;
+}
+
+.document {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 0 0 10px 0;
+    border-top: 1px dashed #a1a1a1;
+    text-align: left;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+a {
+    color: #383;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #5a5;
+}
+
+.center {
+    text-align: center;
+}

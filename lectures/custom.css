@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #333;
+    background: #fff;
+    width: 800px;
+    margin: 0 auto;
+}
+
+img {
+    margin: 1.5em;
+}
+
+.rendered_html h1 {
+    margin-bottom: 0.2em;
+}
+.rendered_html h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.reveal h1
+{
+  margin-bottom: 0.75em;  
+  font-size: 60px;
+}
+.reveal h2
+{
+  font-size: 50px;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+
+
+.reveal p
+{
+  font-size: 30px;
+  /* text-align: justify; */
+  line-height: 1.4em;
+}
+
+.reveal li
+{
+  font-size: 30px;
+  line-height: 1.3em;
+}
+
+.reveal pre
+{
+  font-size: 25px;
+}
+
+.reveal div.prompt
+{
+  font-size: 25px;
+}
+
+.reveal div.output_area
+{
+  font-size: 27px;
+}
+
+.reveal div.output_area pre
+{
+        padding-top: 3px;
+}
+
+.reveal .highlight
+{
+  font-size: 25px;
+}
+
