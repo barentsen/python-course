@@ -1,18 +1,20 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 14px;
     color: #333;
     background: #fff;
     width: 800px;
     margin: 0 auto;
 }
 
+
 img {
     margin: 1.5em;
 }
 
 .rendered_html h1 {
-    margin-bottom: 0.2em;
+    margin-bottom: 0.5em;
 }
 .rendered_html h2 {
     margin-top: 0.5em;
@@ -38,6 +40,8 @@ img {
   font-size: 30px;
   /* text-align: justify; */
   line-height: 1.4em;
+  letter-spacing: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .reveal li

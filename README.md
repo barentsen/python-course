@@ -4,9 +4,9 @@ Python Programming Course
 About
 -----
 
-These are the lecture notes used by Geert Barentsen for teaching a short 
-Python Programming course for 2nd-year Math/Physics/Astronomy undergraduates
-at the University of Hertfordshire. 
+These are the lecture notes I use to teach a short 5-week 
+Python Programming course to 2nd-year Math/Physics/Astronomy 
+undergraduates at the University of Hertfordshire. 
 
 License
 --------
