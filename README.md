@@ -23,3 +23,9 @@ information about the license, see the following page:
 
   http://creativecommons.org/licenses/by-nc-sa/3.0/
 
+In addition, some material on scipy and sympy has been adapted from:
+
+  https://github.com/scipy-lectures/scipy-lecture-notes
+
+Thanks to all those who contributed to the above resources.
+
