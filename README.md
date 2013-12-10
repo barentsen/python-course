@@ -20,7 +20,7 @@ To edit the lectures, go to the lectures subdirectory and start the ipython note
 
     ipython notebook
 
-When you have finished editing the lectures, you can automatically generate static HTML files and slides from the ipython notebook files by using:
+When you have finished editing the lectures, you can automatically generate static HTML files and slides from the ipython notebook files using:
 
     python setup.py build
 
