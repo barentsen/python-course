@@ -26,13 +26,12 @@ h3 {
 }
 
 .footer {
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 0 0 10px 0;
     border-top: 1px dashed #a1a1a1;
     text-align: left;
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 12px;
+    font-weight: 200;
 }
 
 a {

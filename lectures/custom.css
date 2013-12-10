@@ -75,3 +75,6 @@ img {
   font-size: 25px;
 }
 
+pre .class .title, pre .function .title {
+    color: navy;
+}
