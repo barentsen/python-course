@@ -1,2 +1,6 @@
+tmp
+
+.ipynb_checkpoints
+deploy.sh
 *.html
 *.pdf
