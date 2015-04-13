@@ -53,48 +53,4 @@ class BuildNotes(Command):
             app.start()
 
 
-class DeployNotes(Command):
-
-    user_options = []
-
-    def initialize_options(self):
-        pass
-
-    def finalize_options(self):
-        pass
-
-    def run(self):
-
-        SERVER = os.environ["PY4SCI_SERVER"]
-        USER = os.environ["PY4SCI_USER"]
-
-        import getpass
-        from ftplib import FTP
-        from astropy.utils.console import ProgressBar
-
-        ftp = FTP(SERVER)
-        ftp.login(user=USER, passwd=getpass.getpass())
-
-        ftp.cwd('/public_html/PY4SCI_WS_2013_14')
-
-        for slides in ProgressBar.iterate(glob.glob('lectures/*.html')
-                                          + ['lectures/custom.css']
-                                          + glob.glob('problems/data/*')
-                                          + glob.glob('problems/*.html')
-                                          + glob.glob('practice/data/*')
-                                          + glob.glob('practice/*.html')):
-            try:
-                remote_size = ftp.size(slides)
-            except:
-                remote_size = None
-            local_size = os.path.getsize(slides)
-            if local_size != remote_size:
-                ftp.storbinary('STOR ' + slides, open(slides, 'rb'))
-
-        ftp.storbinary('STOR index.html', open('index.html', 'rb'))
-
-        ftp.quit()
-
-
-
-setup(name='python-course', cmdclass={'build': BuildNotes, 'deploy':DeployNotes})
+setup(name='python-course', cmdclass={'build': BuildNotes})
