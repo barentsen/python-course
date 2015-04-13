@@ -35,9 +35,9 @@ information about the license, see the following page:
 
 Credits
 -------
-This course is strongly inspired, and partially adapted, from an existing course called 
+This course is inspired by, and partially adapted from, an existing course called 
 "Python: Programming for Scientists" by Thomas Robitaille, 
-which is available under the ~same license here:
+which is available under the same license here:
    
    https://github.com/astrofrog/py4sci
 
